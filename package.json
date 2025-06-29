@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend app",
+  "keywords": [
+    "node",
+    "faiz"
+  ],
+  "homepage": "https://github.com/sfa129/Backend#readme",
+  "bugs": {
+    "url": "https://github.com/sfa129/Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfa129/Backend.git"
+  },
+  "license": "ISC",
+  "author": "syed faiz ahmed",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0"
+  }
+}
