@@ -13,7 +13,17 @@ const doctorSchema = new mongoose.Schema(
         qualifications: {
             type: String,
             required: true
-        }
+        },
+        experienceInYears: {
+            type: Number,
+            default: 0
+        },
+        workInHospitals: [
+            {
+                type: mongoose.Schema.Types.ObjectId,
+                ref: "Hospital"
+            }
+        ]
     }, {timestamps: true}
 );
 
